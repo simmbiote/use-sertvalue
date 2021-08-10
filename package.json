@@ -1,0 +1,26 @@
+{
+  "name": "use-setvalue",
+  "version": "1.0.0",
+  "description": "A simple React hook for updating state with less boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simmbiote/use-setvalue.git"
+  },
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "author": "@simmbiote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simmbiote/use-setvalue/issues"
+  },
+  "homepage": "https://github.com/simmbiote/use-setvalue#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
