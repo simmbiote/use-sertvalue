@@ -1,8 +1,8 @@
-import { useReducer } from "react";
-import defaultReducer from "./defaultReducer";
+const React = require("react");
+const defaultReducer = require("./defaultReducer");
 
 const useSetValue = (initialState, reducer = defaultReducer) => {
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = React.useReducer(reducer, initialState);
   // const [none, setState] = useState(initialState);
 
   //   In most cases, just use setValue when you want to set the value of a field.
@@ -19,4 +19,4 @@ const useSetValue = (initialState, reducer = defaultReducer) => {
   return [state, setValue, dispatch];
 };
 
-export default useSetValue;
+module.exports = useSetValue;

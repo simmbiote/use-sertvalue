@@ -1,6 +1,6 @@
 {
   "name": "use-setvalue",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple React hook for updating state with less boilerplate.",
   "main": "index.js",
   "scripts": {
