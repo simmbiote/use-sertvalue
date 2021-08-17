@@ -3,6 +3,7 @@ import defaultReducer from "./defaultReducer";
 
 const useSetValue = (initialState, reducer = defaultReducer) => {
   const [state, dispatch]: Array<any> = useReducer(reducer, initialState);
+  // const [none, setState] = useState(initialState);
 
   //   In most cases, just use setValue when you want to set the value of a field.
   const setValue = (field, payload) => {
